@@ -1,2 +1,4 @@
+/build/ssr
+/build/web
 /node_modules
 /public/build
