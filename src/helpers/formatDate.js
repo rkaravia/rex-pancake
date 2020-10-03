@@ -1,4 +1,4 @@
-const months = [
+const monthsLong = [
   "janvier",
   "février",
   "mars",
@@ -13,9 +13,25 @@ const months = [
   "décembre",
 ];
 
-export default function formatDate(date) {
-  const day = date.getUTCDate();
-  const month = date.getUTCMonth();
-  const nonBreakingSpace = "\u00a0";
-  return `${day}${nonBreakingSpace}${months[month]}`;
+const monthsShort = [
+  "janv.",
+  "févr.",
+  "mars",
+  "avr.",
+  "mai",
+  "juin",
+  "juill.",
+  "août",
+  "sept.",
+  "oct.",
+  "nov.",
+  "déc.",
+];
+
+export function formatDateLong(date) {
+  return monthsLong[date.getUTCMonth()];
+}
+
+export function formatDateShort(date) {
+  return monthsShort[date.getUTCMonth()];
 }

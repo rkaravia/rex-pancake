@@ -1,4 +1,4 @@
 import data from "./data.js";
-import formatDate from "./formatDate.js";
+import { formatDateLong, formatDateShort } from "./formatDate.js";
 
-export { data, formatDate };
+export { data, formatDateLong, formatDateShort };

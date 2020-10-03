@@ -1,11 +1,18 @@
 <script>
+  import Breakpoint from "./Breakpoint.svelte";
+  import BreakpointMin from "./BreakpointMin.svelte";
+  import BreakpointMax from "./BreakpointMax.svelte";
   import * as Pancake from "@sveltejs/pancake";
-  import { data, formatDate } from "../helpers";
+  import { data, formatDateLong, formatDateShort } from "../helpers";
 
   const x1 = 0;
   const x2 = data.length - 1;
   const y1 = 0;
   const y2 = Math.max(...data.map(row => row.y));
+
+  const xAxisTicks = data
+    .filter(({ date }) => date.getUTCDate() === 1)
+    .map(({ x }) => x);
 
   const averageAnnotationPoint = getAverageAnnotationPoint(data);
 
@@ -18,18 +25,35 @@
 
 <style>
   .chart {
-    height: 200px;
+    overflow: hidden;
+  }
+
+  .chart__content {
+    display: flex;
     margin-left: 50px;
     margin-bottom: 30px;
   }
 
-  .x.label {
-    position: absolute;
-    bottom: -24px;
+  .layer {
+    width: 100%;
+    margin-right: -100%;
   }
 
-  .x.label.last {
-    right: 0;
+  .chart-height {
+    height: 200px;
+  }
+
+  .tick {
+    position: absolute;
+    bottom: -8px;
+    height: 8px;
+    border-left: 1px solid #ccc;
+  }
+
+  .x.label {
+    position: absolute;
+    left: -8px;
+    bottom: -24px;
   }
 
   .y.label {
@@ -77,44 +101,67 @@
 </style>
 
 <div class="chart">
-  <Pancake.Chart {x1} {x2} {y1} {y2}>
-    <Pancake.Grid vertical ticks={[x1, x2]} let:value let:first let:last>
-      <span class="x label" class:first class:last>
-        {formatDate(data[value].date)}
-      </span>
-    </Pancake.Grid>
+  <div class="chart__content">
+    <div class="layer chart-height">
+      <Pancake.Chart {x1} {x2} {y1} {y2}>
+        <Pancake.Grid horizontal count={3} let:value>
+          <div class="grid-line" />
+          <span class="y label">{value}</span>
+        </Pancake.Grid>
 
-    <Pancake.Grid horizontal count={3} let:value>
-      <div class="grid-line" />
-      <span class="y label">{value}</span>
-    </Pancake.Grid>
+        <Pancake.Svg>
+          {#each data as { x, y }}
+            <Pancake.SvgRect
+              x1={x - 0.5}
+              x2={x + 0.5}
+              y1={0}
+              y2={y}
+              let:x
+              let:y
+              let:width
+              let:height
+              let:value>
+              <rect class="cases-day" {x} {y} width={width * 0.9} {height} />
+            </Pancake.SvgRect>
+          {/each}
 
-    <Pancake.Svg>
-      {#each data as { x, y }}
-        <Pancake.SvgRect
-          x1={x - 0.5}
-          x2={x + 0.5}
-          y1={0}
-          y2={y}
-          let:x
-          let:y
-          let:width
-          let:height
-          let:value>
-          <rect class="cases-day" {x} {y} width={width * 0.9} {height} />
-        </Pancake.SvgRect>
-      {/each}
+          <Pancake.SvgLine {data} y={d => d.yRollingAverage} let:d>
+            <path class="cases-week-average" {d} />
+          </Pancake.SvgLine>
+        </Pancake.Svg>
 
-      <Pancake.SvgLine {data} y={d => d.yRollingAverage} let:d>
-        <path class="cases-week-average" {d} />
-      </Pancake.SvgLine>
-    </Pancake.Svg>
+        <Pancake.Point {...averageAnnotationPoint}>
+          <div class="annotation">
+            <div class="annotation__line" />
+            <div class="annotation__content">Moyenne sur 7 jours</div>
+          </div>
+        </Pancake.Point>
+      </Pancake.Chart>
+    </div>
 
-    <Pancake.Point {...averageAnnotationPoint}>
-      <div class="annotation">
-        <div class="annotation__line" />
-        <div class="annotation__content">Moyenne sur 7 jours</div>
-      </div>
-    </Pancake.Point>
-  </Pancake.Chart>
+    <div class="layer chart-height">
+      <Breakpoint>
+        <BreakpointMax width={549}>
+          <div class="chart-height">
+            <Pancake.Chart {x1} {x2} {y1} {y2}>
+              <Pancake.Grid vertical ticks={xAxisTicks} let:value>
+                <div class="tick" />
+                <span class="x label">{formatDateShort(data[value].date)}</span>
+              </Pancake.Grid>
+            </Pancake.Chart>
+          </div>
+        </BreakpointMax>
+        <BreakpointMin width={550}>
+          <div class="chart-height">
+            <Pancake.Chart {x1} {x2} {y1} {y2}>
+              <Pancake.Grid vertical ticks={xAxisTicks} let:value>
+                <div class="tick" />
+                <span class="x label">{formatDateLong(data[value].date)}</span>
+              </Pancake.Grid>
+            </Pancake.Chart>
+          </div>
+        </BreakpointMin>
+      </Breakpoint>
+    </div>
+  </div>
 </div>
