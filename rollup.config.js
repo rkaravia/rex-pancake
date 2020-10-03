@@ -4,6 +4,8 @@ import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { string } from "rollup-plugin-string";
 
+const production = !process.env.ROLLUP_WATCH;
+
 function serve() {
   let server;
 
@@ -53,7 +55,7 @@ const development = {
       include: "**/*.tsv",
     }),
     serve(),
-    livereload("public"),
+    !production && livereload("public"),
   ],
   watch: {
     clearScreen: false,
@@ -83,4 +85,4 @@ const serverSideRendering = {
   ],
 };
 
-export default [development, serverSideRendering];
+export default production ? serverSideRendering : development;
