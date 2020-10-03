@@ -77,7 +77,7 @@ button:focus {
           background: #eee;
           max-width: none;
         }
-        .chart.svelte-oe82cq{position:relative;padding-top:40%;margin-left:50px;margin-bottom:30px}.chart__content.svelte-oe82cq{position:absolute;top:0;width:100%;height:100%}.x.label.svelte-oe82cq{position:absolute;bottom:-24px}.x.label.last.svelte-oe82cq{right:0}.y.label.svelte-oe82cq{position:absolute;right:calc(100% + 12px);text-align:right;bottom:-8px}.grid-line.svelte-oe82cq{position:absolute;left:-8px;width:calc(100% + 16px);border-bottom:1px solid #ccc}.cases-day.svelte-oe82cq{fill:#9ecae1}.cases-week-average.svelte-oe82cq{stroke:#3182bd;stroke-width:2px;fill:none}.annotation.svelte-oe82cq{position:absolute;bottom:0;display:flex}.annotation__line.svelte-oe82cq{width:32px;margin-top:10px;border-left:1px solid;border-top:1px solid;border-top-left-radius:4px}.annotation__content.svelte-oe82cq{margin-left:4px;white-space:nowrap}
+        .chart.svelte-yqrvvk{height:200px;margin-left:50px;margin-bottom:30px}.x.label.svelte-yqrvvk{position:absolute;bottom:-24px}.x.label.last.svelte-yqrvvk{right:0}.y.label.svelte-yqrvvk{position:absolute;right:calc(100% + 12px);text-align:right;bottom:-8px}.grid-line.svelte-yqrvvk{position:absolute;left:-8px;width:calc(100% + 16px);border-bottom:1px solid #ccc}.cases-day.svelte-yqrvvk{fill:#9ecae1}.cases-week-average.svelte-yqrvvk{stroke:#3182bd;stroke-width:2px;fill:none}.annotation.svelte-yqrvvk{position:absolute;bottom:0;display:flex}.annotation__line.svelte-yqrvvk{width:32px;margin-top:10px;border-left:1px solid;border-top:1px solid;border-top-left-radius:4px}.annotation__content.svelte-yqrvvk{margin-left:4px;white-space:nowrap}
 .pancake-chart.svelte-1gzh5rp{position:relative;display:block;width:100%;height:100%}.clip.svelte-1gzh5rp{overflow:hidden}
 .pancake-grid-item.svelte-1wq9bba{position:absolute;left:0;top:0}
 svg.svelte-4s4ihd{position:absolute;width:100%;height:100%;overflow:visible}.clip.svelte-4s4ihd{overflow:hidden}svg.svelte-4s4ihd *{vector-effect:non-scaling-stroke}
@@ -85,228 +85,228 @@ svg.svelte-4s4ihd{position:absolute;width:100%;height:100%;overflow:visible}.cli
       </style>
       <header><h1>Le coronavirus en Suisse</h1>
   <p>Nouveaux cas annoncés chaque jour</p></header>
-<div class="chart svelte-oe82cq"><div class="chart__content svelte-oe82cq"><div class="pancake-chart svelte-1gzh5rp"><div class="pancake-grid"><div class="pancake-grid-item svelte-1wq9bba" style="width: 0; height: 100%; left: 0%"><span class="x label svelte-oe82cq first">24 février</span>
-		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 0; height: 100%; left: 99.99999999999999%"><span class="x label svelte-oe82cq  last">10 septembre</span>
+<div class="chart svelte-yqrvvk"><div class="pancake-chart svelte-1gzh5rp"><div class="pancake-grid"><div class="pancake-grid-item svelte-1wq9bba" style="width: 0; height: 100%; left: 0%"><span class="x label svelte-yqrvvk first">24 février</span>
+		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 0; height: 100%; left: 99.99999999999999%"><span class="x label svelte-yqrvvk  last">10 septembre</span>
 		</div>
 </div>
 
-      <div class="pancake-grid"><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 100%"><div class="grid-line svelte-oe82cq"></div>
-        <span class="y label svelte-oe82cq">0</span>
-		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 65.84699453551912%"><div class="grid-line svelte-oe82cq"></div>
-        <span class="y label svelte-oe82cq">500</span>
-		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 31.693989071038246%"><div class="grid-line svelte-oe82cq"></div>
-        <span class="y label svelte-oe82cq">1000</span>
+      <div class="pancake-grid"><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 100%"><div class="grid-line svelte-yqrvvk"></div>
+        <span class="y label svelte-yqrvvk">0</span>
+		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 65.84699453551912%"><div class="grid-line svelte-yqrvvk"></div>
+        <span class="y label svelte-yqrvvk">500</span>
+		</div><div class="pancake-grid-item svelte-1wq9bba" style="width: 100%; height: 0; top: 31.693989071038246%"><div class="grid-line svelte-yqrvvk"></div>
+        <span class="y label svelte-yqrvvk">1000</span>
 		</div>
 </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="svelte-4s4ihd"><rect class="cases-day svelte-oe82cq" x="-0.25125628140703515" y="99.93169398907104" width="0.4522613065326633" height="0.06830601092896416"></rect>
-          <rect class="cases-day svelte-oe82cq" x="0.25125628140703515" y="99.93169398907104" width="0.4522613065326633" height="0.06830601092896416"></rect>
-          <rect class="cases-day svelte-oe82cq" x="0.7537688442211055" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="1.2562814070351758" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="1.758793969849246" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="2.2613065326633164" y="99.1120218579235" width="0.4522613065326633" height="0.8879781420765056"></rect>
-          <rect class="cases-day svelte-oe82cq" x="2.7638190954773867" y="99.24863387978142" width="0.4522613065326633" height="0.7513661202185773"></rect>
-          <rect class="cases-day svelte-oe82cq" x="3.266331658291457" y="97.88251366120218" width="0.4522613065326633" height="2.117486338797818"></rect>
-          <rect class="cases-day svelte-oe82cq" x="3.7688442211055273" y="97.74590163934427" width="0.4522613065326633" height="2.254098360655732"></rect>
-          <rect class="cases-day svelte-oe82cq" x="4.271356783919598" y="95.83333333333333" width="0.4522613065326633" height="4.166666666666671"></rect>
-          <rect class="cases-day svelte-oe82cq" x="4.773869346733668" y="95.76502732240436" width="0.4522613065326633" height="4.234972677595636"></rect>
-          <rect class="cases-day svelte-oe82cq" x="5.276381909547738" y="95.01366120218579" width="0.4522613065326633" height="4.986338797814213"></rect>
-          <rect class="cases-day svelte-oe82cq" x="5.7788944723618085" y="96.65300546448087" width="0.4522613065326633" height="3.34699453551913"></rect>
-          <rect class="cases-day svelte-oe82cq" x="6.281407035175879" y="95.28688524590164" width="0.4522613065326633" height="4.713114754098356"></rect>
-          <rect class="cases-day svelte-oe82cq" x="6.783919597989949" y="86.88524590163934" width="0.4522613065326633" height="13.114754098360663"></rect>
-          <rect class="cases-day svelte-oe82cq" x="7.2864321608040195" y="85.51912568306011" width="0.4522613065326633" height="14.48087431693989"></rect>
-          <rect class="cases-day svelte-oe82cq" x="7.78894472361809" y="77.18579234972677" width="0.4522613065326625" height="22.814207650273232"></rect>
-          <rect class="cases-day svelte-oe82cq" x="8.29145728643216" y="75.61475409836065" width="0.4522613065326649" height="24.38524590163935"></rect>
-          <rect class="cases-day svelte-oe82cq" x="8.793969849246231" y="70.42349726775956" width="0.45226130653266167" height="29.576502732240442"></rect>
-          <rect class="cases-day svelte-oe82cq" x="9.2964824120603" y="71.31147540983606" width="0.4522613065326649" height="28.688524590163937"></rect>
-          <rect class="cases-day svelte-oe82cq" x="9.798994974874372" y="77.59562841530055" width="0.45226130653266167" height="22.404371584699447"></rect>
-          <rect class="cases-day svelte-oe82cq" x="10.30150753768844" y="27.322404371584696" width="0.4522613065326649" height="72.6775956284153"></rect>
-          <rect class="cases-day svelte-oe82cq" x="10.804020100502512" y="25.683060109289613" width="0.45226130653266167" height="74.31693989071039"></rect>
-          <rect class="cases-day svelte-oe82cq" x="11.306532663316581" y="17.076502732240428" width="0.4522613065326649" height="82.92349726775957"></rect>
-          <rect class="cases-day svelte-oe82cq" x="11.809045226130653" y="42.89617486338797" width="0.45226130653266167" height="57.10382513661203"></rect>
-          <rect class="cases-day svelte-oe82cq" x="12.311557788944722" y="21.65300546448087" width="0.4522613065326649" height="78.34699453551913"></rect>
-          <rect class="cases-day svelte-oe82cq" x="12.814070351758794" y="52.6639344262295" width="0.45226130653266167" height="47.3360655737705"></rect>
-          <rect class="cases-day svelte-oe82cq" x="13.316582914572862" y="62.63661202185792" width="0.4522613065326649" height="37.36338797814208"></rect>
-          <rect class="cases-day svelte-oe82cq" x="13.819095477386934" y="-1.4210854715202004e-14" width="0.45226130653266167" height="100.00000000000001"></rect>
-          <rect class="cases-day svelte-oe82cq" x="14.321608040201003" y="15.027322404371574" width="0.4522613065326649" height="84.97267759562843"></rect>
-          <rect class="cases-day svelte-oe82cq" x="14.824120603015075" y="26.775956284152997" width="0.45226130653266167" height="73.224043715847"></rect>
-          <rect class="cases-day svelte-oe82cq" x="15.326633165829143" y="23.63387978142076" width="0.4522613065326649" height="76.36612021857924"></rect>
-          <rect class="cases-day svelte-oe82cq" x="15.829145728643216" y="10.655737704918025" width="0.45226130653266167" height="89.34426229508198"></rect>
-          <rect class="cases-day svelte-oe82cq" x="16.331658291457284" y="50.61475409836065" width="0.4522613065326649" height="49.38524590163935"></rect>
-          <rect class="cases-day svelte-oe82cq" x="16.834170854271356" y="70.42349726775956" width="0.45226130653266167" height="29.576502732240442"></rect>
-          <rect class="cases-day svelte-oe82cq" x="17.336683417085425" y="10.519125683060096" width="0.4522613065326649" height="89.4808743169399"></rect>
-          <rect class="cases-day svelte-oe82cq" x="17.839195979899497" y="22.336065573770483" width="0.45226130653266167" height="77.66393442622952"></rect>
-          <rect class="cases-day svelte-oe82cq" x="18.341708542713565" y="30.601092896174862" width="0.4522613065326649" height="69.39890710382514"></rect>
-          <rect class="cases-day svelte-oe82cq" x="18.844221105527637" y="40.02732240437158" width="0.45226130653266167" height="59.97267759562842"></rect>
-          <rect class="cases-day svelte-oe82cq" x="19.346733668341706" y="36.612021857923494" width="0.4522613065326649" height="63.387978142076506"></rect>
-          <rect class="cases-day svelte-oe82cq" x="19.849246231155778" y="66.80327868852459" width="0.45226130653266167" height="33.196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="20.351758793969847" y="80.80601092896174" width="0.4522613065326649" height="19.19398907103826"></rect>
-          <rect class="cases-day svelte-oe82cq" x="20.85427135678392" y="36.81693989071038" width="0.45226130653266167" height="63.18306010928962"></rect>
-          <rect class="cases-day svelte-oe82cq" x="21.356783919597987" y="51.16120218579235" width="0.4522613065326649" height="48.83879781420765"></rect>
-          <rect class="cases-day svelte-oe82cq" x="21.85929648241206" y="58.12841530054644" width="0.45226130653266167" height="41.87158469945356"></rect>
-          <rect class="cases-day svelte-oe82cq" x="22.361809045226128" y="61.81693989071038" width="0.4522613065326649" height="38.18306010928962"></rect>
-          <rect class="cases-day svelte-oe82cq" x="22.8643216080402" y="78.89344262295081" width="0.45226130653266167" height="21.106557377049185"></rect>
-          <rect class="cases-day svelte-oe82cq" x="23.36683417085427" y="82.10382513661202" width="0.4522613065326649" height="17.896174863387984"></rect>
-          <rect class="cases-day svelte-oe82cq" x="23.86934673366834" y="85.04098360655738" width="0.45226130653266167" height="14.959016393442624"></rect>
-          <rect class="cases-day svelte-oe82cq" x="24.37185929648241" y="83.26502732240436" width="0.4522613065326649" height="16.734972677595636"></rect>
-          <rect class="cases-day svelte-oe82cq" x="24.87437185929648" y="70.96994535519126" width="0.45226130653266167" height="29.030054644808743"></rect>
-          <rect class="cases-day svelte-oe82cq" x="25.37688442211055" y="77.59562841530055" width="0.4522613065326649" height="22.404371584699447"></rect>
-          <rect class="cases-day svelte-oe82cq" x="25.87939698492462" y="78.07377049180327" width="0.45226130653266167" height="21.926229508196727"></rect>
-          <rect class="cases-day svelte-oe82cq" x="26.38190954773869" y="80.12295081967213" width="0.4522613065326649" height="19.877049180327873"></rect>
-          <rect class="cases-day svelte-oe82cq" x="26.884422110552762" y="90.1639344262295" width="0.45226130653266167" height="9.836065573770497"></rect>
-          <rect class="cases-day svelte-oe82cq" x="27.38693467336683" y="94.12568306010928" width="0.4522613065326649" height="5.8743169398907185"></rect>
-          <rect class="cases-day svelte-oe82cq" x="27.889447236180903" y="81.0792349726776" width="0.45226130653266167" height="18.920765027322403"></rect>
-          <rect class="cases-day svelte-oe82cq" x="28.39195979899497" y="85.45081967213115" width="0.4522613065326649" height="14.549180327868854"></rect>
-          <rect class="cases-day svelte-oe82cq" x="28.894472361809044" y="89.34426229508196" width="0.45226130653266167" height="10.655737704918039"></rect>
-          <rect class="cases-day svelte-oe82cq" x="29.396984924623112" y="85.79234972677595" width="0.4522613065326649" height="14.207650273224047"></rect>
-          <rect class="cases-day svelte-oe82cq" x="29.899497487437184" y="88.59289617486338" width="0.45226130653266167" height="11.407103825136616"></rect>
-          <rect class="cases-day svelte-oe82cq" x="30.402010050251253" y="94.05737704918033" width="0.4522613065326649" height="5.942622950819668"></rect>
-          <rect class="cases-day svelte-oe82cq" x="30.904522613065325" y="95.83333333333333" width="0.45226130653266167" height="4.166666666666671"></rect>
-          <rect class="cases-day svelte-oe82cq" x="31.407035175879393" y="88.18306010928961" width="0.4522613065326649" height="11.816939890710387"></rect>
-          <rect class="cases-day svelte-oe82cq" x="31.909547738693465" y="89.54918032786885" width="0.4522613065326649" height="10.450819672131146"></rect>
-          <rect class="cases-day svelte-oe82cq" x="32.41206030150754" y="91.80327868852459" width="0.45226130653266167" height="8.196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="32.914572864321606" y="93.10109289617486" width="0.45226130653266167" height="6.898907103825138"></rect>
-          <rect class="cases-day svelte-oe82cq" x="33.417085427135675" y="94.33060109289617" width="0.45226130653266167" height="5.669398907103826"></rect>
-          <rect class="cases-day svelte-oe82cq" x="33.91959798994974" y="96.7896174863388" width="0.4522613065326681" height="3.2103825136612016"></rect>
-          <rect class="cases-day svelte-oe82cq" x="34.42211055276382" y="98.42896174863388" width="0.45226130653266167" height="1.5710382513661187"></rect>
-          <rect class="cases-day svelte-oe82cq" x="34.92462311557789" y="93.85245901639344" width="0.45226130653266167" height="6.147540983606561"></rect>
-          <rect class="cases-day svelte-oe82cq" x="35.427135678391956" y="95.01366120218579" width="0.45226130653266167" height="4.986338797814213"></rect>
-          <rect class="cases-day svelte-oe82cq" x="35.929648241206024" y="94.53551912568307" width="0.4522613065326681" height="5.4644808743169335"></rect>
-          <rect class="cases-day svelte-oe82cq" x="36.4321608040201" y="96.85792349726776" width="0.45226130653266167" height="3.1420765027322375"></rect>
-          <rect class="cases-day svelte-oe82cq" x="36.93467336683417" y="95.96994535519126" width="0.45226130653266167" height="4.030054644808743"></rect>
-          <rect class="cases-day svelte-oe82cq" x="37.43718592964824" y="97.3360655737705" width="0.45226130653266167" height="2.6639344262295026"></rect>
-          <rect class="cases-day svelte-oe82cq" x="37.939698492462306" y="98.90710382513662" width="0.4522613065326681" height="1.0928961748633839"></rect>
-          <rect class="cases-day svelte-oe82cq" x="38.44221105527638" y="96.85792349726776" width="0.45226130653266167" height="3.1420765027322375"></rect>
-          <rect class="cases-day svelte-oe82cq" x="38.94472361809045" y="97.1311475409836" width="0.45226130653266167" height="2.868852459016395"></rect>
-          <rect class="cases-day svelte-oe82cq" x="39.44723618090452" y="97.47267759562841" width="0.45226130653266167" height="2.5273224043715885"></rect>
-          <rect class="cases-day svelte-oe82cq" x="39.94974874371859" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
-          <rect class="cases-day svelte-oe82cq" x="40.45226130653266" y="97.19945355191257" width="0.45226130653266167" height="2.800546448087431"></rect>
-          <rect class="cases-day svelte-oe82cq" x="40.95477386934673" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
-          <rect class="cases-day svelte-oe82cq" x="41.4572864321608" y="99.18032786885246" width="0.45226130653266167" height="0.8196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="41.95979899497487" y="97.6775956284153" width="0.4522613065326681" height="2.322404371584696"></rect>
-          <rect class="cases-day svelte-oe82cq" x="42.462311557788944" y="97.54098360655738" width="0.45226130653266167" height="2.4590163934426243"></rect>
-          <rect class="cases-day svelte-oe82cq" x="42.96482412060301" y="98.01912568306011" width="0.45226130653266167" height="1.9808743169398895"></rect>
-          <rect class="cases-day svelte-oe82cq" x="43.46733668341708" y="99.24863387978142" width="0.45226130653266167" height="0.7513661202185773"></rect>
-          <rect class="cases-day svelte-oe82cq" x="43.96984924623115" y="98.70218579234972" width="0.4522613065326681" height="1.2978142076502763"></rect>
-          <rect class="cases-day svelte-oe82cq" x="44.472361809045225" y="99.04371584699453" width="0.45226130653266167" height="0.9562841530054698"></rect>
-          <rect class="cases-day svelte-oe82cq" x="44.97487437185929" y="99.31693989071039" width="0.45226130653266167" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="45.47738693467336" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
-          <rect class="cases-day svelte-oe82cq" x="45.97989949748743" y="98.77049180327869" width="0.4522613065326681" height="1.2295081967213122"></rect>
-          <rect class="cases-day svelte-oe82cq" x="46.482412060301506" y="98.29234972677595" width="0.45226130653266167" height="1.707650273224047"></rect>
-          <rect class="cases-day svelte-oe82cq" x="46.984924623115575" y="97.95081967213115" width="0.45226130653266167" height="2.0491803278688536"></rect>
-          <rect class="cases-day svelte-oe82cq" x="47.48743718592964" y="98.56557377049181" width="0.45226130653266167" height="1.4344262295081904"></rect>
-          <rect class="cases-day svelte-oe82cq" x="47.98994974874371" y="99.31693989071039" width="0.4522613065326681" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="48.49246231155779" y="99.52185792349727" width="0.45226130653266167" height="0.4781420765027349"></rect>
-          <rect class="cases-day svelte-oe82cq" x="48.994974874371856" y="99.79508196721312" width="0.45226130653266167" height="0.20491803278687826"></rect>
-          <rect class="cases-day svelte-oe82cq" x="49.497487437185924" y="98.49726775956285" width="0.45226130653266167" height="1.5027322404371546"></rect>
-          <rect class="cases-day svelte-oe82cq" x="49.99999999999999" y="98.42896174863388" width="0.4522613065326681" height="1.5710382513661187"></rect>
-          <rect class="cases-day svelte-oe82cq" x="50.50251256281407" y="98.83879781420765" width="0.45226130653266167" height="1.161202185792348"></rect>
-          <rect class="cases-day svelte-oe82cq" x="51.00502512562814" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
-          <rect class="cases-day svelte-oe82cq" x="51.507537688442206" y="99.31693989071039" width="0.45226130653266167" height="0.6830601092896131"></rect>
-          <rect class="cases-day svelte-oe82cq" x="52.010050251256274" y="99.4535519125683" width="0.4522613065326681" height="0.546448087431699"></rect>
-          <rect class="cases-day svelte-oe82cq" x="52.51256281407035" y="98.29234972677595" width="0.45226130653266167" height="1.707650273224047"></rect>
-          <rect class="cases-day svelte-oe82cq" x="53.01507537688442" y="99.24863387978142" width="0.45226130653266167" height="0.7513661202185773"></rect>
-          <rect class="cases-day svelte-oe82cq" x="53.51758793969849" y="98.36065573770492" width="0.45226130653266167" height="1.639344262295083"></rect>
-          <rect class="cases-day svelte-oe82cq" x="54.020100502512555" y="98.29234972677595" width="0.4522613065326681" height="1.707650273224047"></rect>
-          <rect class="cases-day svelte-oe82cq" x="54.52261306532663" y="97.6775956284153" width="0.45226130653266167" height="2.322404371584696"></rect>
-          <rect class="cases-day svelte-oe82cq" x="55.0251256281407" y="99.38524590163935" width="0.45226130653266167" height="0.614754098360649"></rect>
-          <rect class="cases-day svelte-oe82cq" x="55.52763819095477" y="99.18032786885246" width="0.45226130653266167" height="0.8196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="56.03015075376884" y="97.81420765027322" width="0.4522613065326681" height="2.185792349726782"></rect>
-          <rect class="cases-day svelte-oe82cq" x="56.53266331658291" y="98.56557377049181" width="0.45226130653266167" height="1.4344262295081904"></rect>
-          <rect class="cases-day svelte-oe82cq" x="57.03517587939698" y="98.77049180327869" width="0.45226130653266167" height="1.2295081967213122"></rect>
-          <rect class="cases-day svelte-oe82cq" x="57.53768844221105" y="98.77049180327869" width="0.45226130653266167" height="1.2295081967213122"></rect>
-          <rect class="cases-day svelte-oe82cq" x="58.04020100502512" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
-          <rect class="cases-day svelte-oe82cq" x="58.54271356783919" y="97.81420765027322" width="0.45226130653266167" height="2.185792349726782"></rect>
-          <rect class="cases-day svelte-oe82cq" x="59.04522613065326" y="99.1120218579235" width="0.45226130653266167" height="0.8879781420765056"></rect>
-          <rect class="cases-day svelte-oe82cq" x="59.54773869346733" y="96.17486338797814" width="0.45226130653266167" height="3.825136612021865"></rect>
-          <rect class="cases-day svelte-oe82cq" x="60.0502512562814" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
-          <rect class="cases-day svelte-oe82cq" x="60.552763819095475" y="95.62841530054645" width="0.45226130653266167" height="4.37158469945355"></rect>
-          <rect class="cases-day svelte-oe82cq" x="61.05527638190954" y="96.72131147540983" width="0.45226130653266167" height="3.278688524590166"></rect>
-          <rect class="cases-day svelte-oe82cq" x="61.55778894472361" y="93.71584699453553" width="0.45226130653266167" height="6.284153005464475"></rect>
-          <rect class="cases-day svelte-oe82cq" x="62.06030150753768" y="97.54098360655738" width="0.4522613065326681" height="2.4590163934426243"></rect>
-          <rect class="cases-day svelte-oe82cq" x="62.562814070351756" y="98.49726775956285" width="0.45226130653266167" height="1.5027322404371546"></rect>
-          <rect class="cases-day svelte-oe82cq" x="63.065326633165824" y="89.20765027322405" width="0.45226130653266167" height="10.792349726775953"></rect>
-          <rect class="cases-day svelte-oe82cq" x="63.56783919597989" y="90.7103825136612" width="0.45226130653266167" height="9.289617486338798"></rect>
-          <rect class="cases-day svelte-oe82cq" x="64.07035175879396" y="93.0327868852459" width="0.4522613065326681" height="6.967213114754102"></rect>
-          <rect class="cases-day svelte-oe82cq" x="64.57286432160804" y="91.32513661202185" width="0.4522613065326553" height="8.67486338797815"></rect>
-          <rect class="cases-day svelte-oe82cq" x="65.0753768844221" y="93.44262295081967" width="0.4522613065326681" height="6.557377049180332"></rect>
-          <rect class="cases-day svelte-oe82cq" x="65.57788944723617" y="98.22404371584699" width="0.4522613065326681" height="1.7759562841530112"></rect>
-          <rect class="cases-day svelte-oe82cq" x="66.08040201005025" y="97.47267759562841" width="0.4522613065326553" height="2.5273224043715885"></rect>
-          <rect class="cases-day svelte-oe82cq" x="66.58291457286431" y="92.82786885245902" width="0.4522613065326681" height="7.172131147540981"></rect>
-          <rect class="cases-day svelte-oe82cq" x="67.08542713567839" y="92.69125683060109" width="0.4522613065326681" height="7.308743169398909"></rect>
-          <rect class="cases-day svelte-oe82cq" x="67.58793969849246" y="93.44262295081967" width="0.4522613065326553" height="6.557377049180332"></rect>
-          <rect class="cases-day svelte-oe82cq" x="68.09045226130652" y="93.3743169398907" width="0.4522613065326681" height="6.625683060109296"></rect>
-          <rect class="cases-day svelte-oe82cq" x="68.5929648241206" y="92.41803278688525" width="0.4522613065326553" height="7.581967213114751"></rect>
-          <rect class="cases-day svelte-oe82cq" x="69.09547738693466" y="95.21857923497268" width="0.4522613065326681" height="4.78142076502732"></rect>
-          <rect class="cases-day svelte-oe82cq" x="69.59798994974874" y="96.85792349726776" width="0.4522613065326681" height="3.1420765027322375"></rect>
-          <rect class="cases-day svelte-oe82cq" x="70.10050251256281" y="91.80327868852459" width="0.4522613065326553" height="8.196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="70.60301507537687" y="91.2568306010929" width="0.4522613065326681" height="8.7431693989071"></rect>
-          <rect class="cases-day svelte-oe82cq" x="71.10552763819095" y="91.80327868852459" width="0.4522613065326681" height="8.196721311475414"></rect>
-          <rect class="cases-day svelte-oe82cq" x="71.60804020100502" y="92.75956284153006" width="0.4522613065326553" height="7.240437158469945"></rect>
-          <rect class="cases-day svelte-oe82cq" x="72.11055276381909" y="92.14480874316939" width="0.4522613065326681" height="7.855191256830608"></rect>
-          <rect class="cases-day svelte-oe82cq" x="72.61306532663316" y="94.53551912568307" width="0.4522613065326553" height="5.4644808743169335"></rect>
-          <rect class="cases-day svelte-oe82cq" x="73.11557788944722" y="97.19945355191257" width="0.4522613065326681" height="2.800546448087431"></rect>
-          <rect class="cases-day svelte-oe82cq" x="73.6180904522613" y="91.32513661202185" width="0.4522613065326681" height="8.67486338797815"></rect>
-          <rect class="cases-day svelte-oe82cq" x="74.12060301507537" y="90.57377049180327" width="0.4522613065326553" height="9.426229508196727"></rect>
-          <rect class="cases-day svelte-oe82cq" x="74.62311557788944" y="92.00819672131148" width="0.4522613065326681" height="7.991803278688522"></rect>
-          <rect class="cases-day svelte-oe82cq" x="75.12562814070351" y="90.23224043715847" width="0.4522613065326681" height="9.767759562841533"></rect>
-          <rect class="cases-day svelte-oe82cq" x="75.62814070351759" y="89.89071038251366" width="0.4522613065326553" height="10.10928961748634"></rect>
-          <rect class="cases-day svelte-oe82cq" x="76.13065326633165" y="93.51092896174863" width="0.4522613065326681" height="6.489071038251367"></rect>
-          <rect class="cases-day svelte-oe82cq" x="76.63316582914572" y="96.10655737704919" width="0.4522613065326553" height="3.893442622950815"></rect>
-          <rect class="cases-day svelte-oe82cq" x="77.13567839195979" y="86.81693989071039" width="0.4522613065326681" height="13.183060109289613"></rect>
-          <rect class="cases-day svelte-oe82cq" x="77.63819095477386" y="87.1584699453552" width="0.4522613065326681" height="12.841530054644807"></rect>
-          <rect class="cases-day svelte-oe82cq" x="78.14070351758794" y="84.97267759562841" width="0.4522613065326553" height="15.027322404371589"></rect>
-          <rect class="cases-day svelte-oe82cq" x="78.643216080402" y="85.58743169398907" width="0.4522613065326681" height="14.412568306010925"></rect>
-          <rect class="cases-day svelte-oe82cq" x="79.14572864321607" y="88.86612021857923" width="0.4522613065326681" height="11.133879781420774"></rect>
-          <rect class="cases-day svelte-oe82cq" x="79.64824120603015" y="93.44262295081967" width="0.4522613065326553" height="6.557377049180332"></rect>
-          <rect class="cases-day svelte-oe82cq" x="80.15075376884421" y="94.53551912568307" width="0.4522613065326681" height="5.4644808743169335"></rect>
-          <rect class="cases-day svelte-oe82cq" x="80.65326633165829" y="86.6120218579235" width="0.4522613065326553" height="13.387978142076506"></rect>
-          <rect class="cases-day svelte-oe82cq" x="81.15577889447235" y="87.63661202185793" width="0.4522613065326681" height="12.363387978142072"></rect>
-          <rect class="cases-day svelte-oe82cq" x="81.65829145728642" y="89.61748633879782" width="0.4522613065326681" height="10.382513661202182"></rect>
-          <rect class="cases-day svelte-oe82cq" x="82.1608040201005" y="89.34426229508196" width="0.4522613065326553" height="10.655737704918039"></rect>
-          <rect class="cases-day svelte-oe82cq" x="82.66331658291456" y="87.5" width="0.4522613065326681" height="12.5"></rect>
-          <rect class="cases-day svelte-oe82cq" x="83.16582914572864" y="91.12021857923497" width="0.4522613065326681" height="8.879781420765028"></rect>
-          <rect class="cases-day svelte-oe82cq" x="83.66834170854271" y="93.23770491803279" width="0.4522613065326553" height="6.76229508196721"></rect>
-          <rect class="cases-day svelte-oe82cq" x="84.17085427135677" y="80.80601092896174" width="0.4522613065326681" height="19.19398907103826"></rect>
-          <rect class="cases-day svelte-oe82cq" x="84.67336683417085" y="82.58196721311475" width="0.4522613065326553" height="17.41803278688525"></rect>
-          <rect class="cases-day svelte-oe82cq" x="85.17587939698491" y="83.19672131147541" width="0.4522613065326681" height="16.803278688524586"></rect>
-          <rect class="cases-day svelte-oe82cq" x="85.67839195979899" y="81.48907103825137" width="0.4522613065326681" height="18.510928961748633"></rect>
-          <rect class="cases-day svelte-oe82cq" x="86.18090452261306" y="84.01639344262296" width="0.4522613065326553" height="15.983606557377044"></rect>
-          <rect class="cases-day svelte-oe82cq" x="86.68341708542712" y="89.8224043715847" width="0.4522613065326681" height="10.177595628415304"></rect>
-          <rect class="cases-day svelte-oe82cq" x="87.1859296482412" y="90.50546448087431" width="0.4522613065326681" height="9.49453551912569"></rect>
-          <rect class="cases-day svelte-oe82cq" x="87.68844221105527" y="80.46448087431693" width="0.4522613065326553" height="19.535519125683066"></rect>
-          <rect class="cases-day svelte-oe82cq" x="88.19095477386934" y="79.78142076502732" width="0.4522613065326681" height="20.21857923497268"></rect>
-          <rect class="cases-day svelte-oe82cq" x="88.69346733668341" y="80.66939890710383" width="0.4522613065326553" height="19.330601092896174"></rect>
-          <rect class="cases-day svelte-oe82cq" x="89.19597989949747" y="76.09289617486338" width="0.4522613065326681" height="23.907103825136616"></rect>
-          <rect class="cases-day svelte-oe82cq" x="89.69849246231155" y="78.55191256830601" width="0.4522613065326681" height="21.448087431693992"></rect>
-          <rect class="cases-day svelte-oe82cq" x="90.20100502512562" y="86.88524590163934" width="0.4522613065326553" height="13.114754098360663"></rect>
-          <rect class="cases-day svelte-oe82cq" x="90.70351758793969" y="90.7103825136612" width="0.4522613065326681" height="9.289617486338798"></rect>
-          <rect class="cases-day svelte-oe82cq" x="91.20603015075376" y="79.09836065573771" width="0.4522613065326681" height="20.901639344262293"></rect>
-          <rect class="cases-day svelte-oe82cq" x="91.70854271356784" y="76.91256830601093" width="0.4522613065326553" height="23.087431693989075"></rect>
-          <rect class="cases-day svelte-oe82cq" x="92.2110552763819" y="75.3415300546448" width="0.4522613065326681" height="24.658469945355193"></rect>
-          <rect class="cases-day svelte-oe82cq" x="92.71356783919597" y="75.95628415300547" width="0.4522613065326553" height="24.04371584699453"></rect>
-          <rect class="cases-day svelte-oe82cq" x="93.21608040201004" y="74.4535519125683" width="0.4522613065326681" height="25.5464480874317"></rect>
-          <rect class="cases-day svelte-oe82cq" x="93.71859296482411" y="85.38251366120218" width="0.4522613065326681" height="14.617486338797818"></rect>
-          <rect class="cases-day svelte-oe82cq" x="94.22110552763819" y="90.1639344262295" width="0.4522613065326553" height="9.836065573770497"></rect>
-          <rect class="cases-day svelte-oe82cq" x="94.72361809045225" y="76.36612021857923" width="0.4522613065326681" height="23.633879781420774"></rect>
-          <rect class="cases-day svelte-oe82cq" x="95.22613065326632" y="75.13661202185793" width="0.4522613065326681" height="24.86338797814207"></rect>
-          <rect class="cases-day svelte-oe82cq" x="95.7286432160804" y="71.72131147540983" width="0.4522613065326553" height="28.278688524590166"></rect>
-          <rect class="cases-day svelte-oe82cq" x="96.23115577889446" y="70.21857923497268" width="0.4522613065326681" height="29.78142076502732"></rect>
-          <rect class="cases-day svelte-oe82cq" x="96.73366834170854" y="71.03825136612022" width="0.4522613065326553" height="28.96174863387978"></rect>
-          <rect class="cases-day svelte-oe82cq" x="97.2361809045226" y="79.9863387978142" width="0.4522613065326681" height="20.0136612021858"></rect>
-          <rect class="cases-day svelte-oe82cq" x="97.73869346733667" y="88.45628415300547" width="0.4522613065326681" height="11.54371584699453"></rect>
-          <rect class="cases-day svelte-oe82cq" x="98.24120603015075" y="68.23770491803279" width="0.4522613065326553" height="31.76229508196721"></rect>
-          <rect class="cases-day svelte-oe82cq" x="98.74371859296481" y="73.77049180327869" width="0.4522613065326681" height="26.229508196721312"></rect>
-          <rect class="cases-day svelte-oe82cq" x="99.24623115577889" y="69.46721311475409" width="0.4522613065326681" height="30.532786885245912"></rect>
-          <rect class="cases-day svelte-oe82cq" x="99.74874371859296" y="66.87158469945355" width="0.4522613065326553" height="33.12841530054645"></rect>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="svelte-4s4ihd"><rect class="cases-day svelte-yqrvvk" x="-0.25125628140703515" y="99.93169398907104" width="0.4522613065326633" height="0.06830601092896416"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="0.25125628140703515" y="99.93169398907104" width="0.4522613065326633" height="0.06830601092896416"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="0.7537688442211055" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="1.2562814070351758" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="1.758793969849246" y="99.31693989071039" width="0.4522613065326633" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="2.2613065326633164" y="99.1120218579235" width="0.4522613065326633" height="0.8879781420765056"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="2.7638190954773867" y="99.24863387978142" width="0.4522613065326633" height="0.7513661202185773"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="3.266331658291457" y="97.88251366120218" width="0.4522613065326633" height="2.117486338797818"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="3.7688442211055273" y="97.74590163934427" width="0.4522613065326633" height="2.254098360655732"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="4.271356783919598" y="95.83333333333333" width="0.4522613065326633" height="4.166666666666671"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="4.773869346733668" y="95.76502732240436" width="0.4522613065326633" height="4.234972677595636"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="5.276381909547738" y="95.01366120218579" width="0.4522613065326633" height="4.986338797814213"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="5.7788944723618085" y="96.65300546448087" width="0.4522613065326633" height="3.34699453551913"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="6.281407035175879" y="95.28688524590164" width="0.4522613065326633" height="4.713114754098356"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="6.783919597989949" y="86.88524590163934" width="0.4522613065326633" height="13.114754098360663"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="7.2864321608040195" y="85.51912568306011" width="0.4522613065326633" height="14.48087431693989"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="7.78894472361809" y="77.18579234972677" width="0.4522613065326625" height="22.814207650273232"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="8.29145728643216" y="75.61475409836065" width="0.4522613065326649" height="24.38524590163935"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="8.793969849246231" y="70.42349726775956" width="0.45226130653266167" height="29.576502732240442"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="9.2964824120603" y="71.31147540983606" width="0.4522613065326649" height="28.688524590163937"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="9.798994974874372" y="77.59562841530055" width="0.45226130653266167" height="22.404371584699447"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="10.30150753768844" y="27.322404371584696" width="0.4522613065326649" height="72.6775956284153"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="10.804020100502512" y="25.683060109289613" width="0.45226130653266167" height="74.31693989071039"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="11.306532663316581" y="17.076502732240428" width="0.4522613065326649" height="82.92349726775957"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="11.809045226130653" y="42.89617486338797" width="0.45226130653266167" height="57.10382513661203"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="12.311557788944722" y="21.65300546448087" width="0.4522613065326649" height="78.34699453551913"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="12.814070351758794" y="52.6639344262295" width="0.45226130653266167" height="47.3360655737705"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="13.316582914572862" y="62.63661202185792" width="0.4522613065326649" height="37.36338797814208"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="13.819095477386934" y="-1.4210854715202004e-14" width="0.45226130653266167" height="100.00000000000001"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="14.321608040201003" y="15.027322404371574" width="0.4522613065326649" height="84.97267759562843"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="14.824120603015075" y="26.775956284152997" width="0.45226130653266167" height="73.224043715847"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="15.326633165829143" y="23.63387978142076" width="0.4522613065326649" height="76.36612021857924"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="15.829145728643216" y="10.655737704918025" width="0.45226130653266167" height="89.34426229508198"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="16.331658291457284" y="50.61475409836065" width="0.4522613065326649" height="49.38524590163935"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="16.834170854271356" y="70.42349726775956" width="0.45226130653266167" height="29.576502732240442"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="17.336683417085425" y="10.519125683060096" width="0.4522613065326649" height="89.4808743169399"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="17.839195979899497" y="22.336065573770483" width="0.45226130653266167" height="77.66393442622952"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="18.341708542713565" y="30.601092896174862" width="0.4522613065326649" height="69.39890710382514"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="18.844221105527637" y="40.02732240437158" width="0.45226130653266167" height="59.97267759562842"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="19.346733668341706" y="36.612021857923494" width="0.4522613065326649" height="63.387978142076506"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="19.849246231155778" y="66.80327868852459" width="0.45226130653266167" height="33.196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="20.351758793969847" y="80.80601092896174" width="0.4522613065326649" height="19.19398907103826"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="20.85427135678392" y="36.81693989071038" width="0.45226130653266167" height="63.18306010928962"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="21.356783919597987" y="51.16120218579235" width="0.4522613065326649" height="48.83879781420765"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="21.85929648241206" y="58.12841530054644" width="0.45226130653266167" height="41.87158469945356"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="22.361809045226128" y="61.81693989071038" width="0.4522613065326649" height="38.18306010928962"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="22.8643216080402" y="78.89344262295081" width="0.45226130653266167" height="21.106557377049185"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="23.36683417085427" y="82.10382513661202" width="0.4522613065326649" height="17.896174863387984"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="23.86934673366834" y="85.04098360655738" width="0.45226130653266167" height="14.959016393442624"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="24.37185929648241" y="83.26502732240436" width="0.4522613065326649" height="16.734972677595636"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="24.87437185929648" y="70.96994535519126" width="0.45226130653266167" height="29.030054644808743"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="25.37688442211055" y="77.59562841530055" width="0.4522613065326649" height="22.404371584699447"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="25.87939698492462" y="78.07377049180327" width="0.45226130653266167" height="21.926229508196727"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="26.38190954773869" y="80.12295081967213" width="0.4522613065326649" height="19.877049180327873"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="26.884422110552762" y="90.1639344262295" width="0.45226130653266167" height="9.836065573770497"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="27.38693467336683" y="94.12568306010928" width="0.4522613065326649" height="5.8743169398907185"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="27.889447236180903" y="81.0792349726776" width="0.45226130653266167" height="18.920765027322403"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="28.39195979899497" y="85.45081967213115" width="0.4522613065326649" height="14.549180327868854"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="28.894472361809044" y="89.34426229508196" width="0.45226130653266167" height="10.655737704918039"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="29.396984924623112" y="85.79234972677595" width="0.4522613065326649" height="14.207650273224047"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="29.899497487437184" y="88.59289617486338" width="0.45226130653266167" height="11.407103825136616"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="30.402010050251253" y="94.05737704918033" width="0.4522613065326649" height="5.942622950819668"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="30.904522613065325" y="95.83333333333333" width="0.45226130653266167" height="4.166666666666671"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="31.407035175879393" y="88.18306010928961" width="0.4522613065326649" height="11.816939890710387"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="31.909547738693465" y="89.54918032786885" width="0.4522613065326649" height="10.450819672131146"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="32.41206030150754" y="91.80327868852459" width="0.45226130653266167" height="8.196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="32.914572864321606" y="93.10109289617486" width="0.45226130653266167" height="6.898907103825138"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="33.417085427135675" y="94.33060109289617" width="0.45226130653266167" height="5.669398907103826"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="33.91959798994974" y="96.7896174863388" width="0.4522613065326681" height="3.2103825136612016"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="34.42211055276382" y="98.42896174863388" width="0.45226130653266167" height="1.5710382513661187"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="34.92462311557789" y="93.85245901639344" width="0.45226130653266167" height="6.147540983606561"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="35.427135678391956" y="95.01366120218579" width="0.45226130653266167" height="4.986338797814213"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="35.929648241206024" y="94.53551912568307" width="0.4522613065326681" height="5.4644808743169335"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="36.4321608040201" y="96.85792349726776" width="0.45226130653266167" height="3.1420765027322375"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="36.93467336683417" y="95.96994535519126" width="0.45226130653266167" height="4.030054644808743"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="37.43718592964824" y="97.3360655737705" width="0.45226130653266167" height="2.6639344262295026"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="37.939698492462306" y="98.90710382513662" width="0.4522613065326681" height="1.0928961748633839"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="38.44221105527638" y="96.85792349726776" width="0.45226130653266167" height="3.1420765027322375"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="38.94472361809045" y="97.1311475409836" width="0.45226130653266167" height="2.868852459016395"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="39.44723618090452" y="97.47267759562841" width="0.45226130653266167" height="2.5273224043715885"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="39.94974874371859" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="40.45226130653266" y="97.19945355191257" width="0.45226130653266167" height="2.800546448087431"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="40.95477386934673" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="41.4572864321608" y="99.18032786885246" width="0.45226130653266167" height="0.8196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="41.95979899497487" y="97.6775956284153" width="0.4522613065326681" height="2.322404371584696"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="42.462311557788944" y="97.54098360655738" width="0.45226130653266167" height="2.4590163934426243"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="42.96482412060301" y="98.01912568306011" width="0.45226130653266167" height="1.9808743169398895"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="43.46733668341708" y="99.24863387978142" width="0.45226130653266167" height="0.7513661202185773"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="43.96984924623115" y="98.70218579234972" width="0.4522613065326681" height="1.2978142076502763"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="44.472361809045225" y="99.04371584699453" width="0.45226130653266167" height="0.9562841530054698"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="44.97487437185929" y="99.31693989071039" width="0.45226130653266167" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="45.47738693467336" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="45.97989949748743" y="98.77049180327869" width="0.4522613065326681" height="1.2295081967213122"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="46.482412060301506" y="98.29234972677595" width="0.45226130653266167" height="1.707650273224047"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="46.984924623115575" y="97.95081967213115" width="0.45226130653266167" height="2.0491803278688536"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="47.48743718592964" y="98.56557377049181" width="0.45226130653266167" height="1.4344262295081904"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="47.98994974874371" y="99.31693989071039" width="0.4522613065326681" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="48.49246231155779" y="99.52185792349727" width="0.45226130653266167" height="0.4781420765027349"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="48.994974874371856" y="99.79508196721312" width="0.45226130653266167" height="0.20491803278687826"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="49.497487437185924" y="98.49726775956285" width="0.45226130653266167" height="1.5027322404371546"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="49.99999999999999" y="98.42896174863388" width="0.4522613065326681" height="1.5710382513661187"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="50.50251256281407" y="98.83879781420765" width="0.45226130653266167" height="1.161202185792348"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="51.00502512562814" y="98.97540983606558" width="0.45226130653266167" height="1.0245901639344197"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="51.507537688442206" y="99.31693989071039" width="0.45226130653266167" height="0.6830601092896131"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="52.010050251256274" y="99.4535519125683" width="0.4522613065326681" height="0.546448087431699"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="52.51256281407035" y="98.29234972677595" width="0.45226130653266167" height="1.707650273224047"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="53.01507537688442" y="99.24863387978142" width="0.45226130653266167" height="0.7513661202185773"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="53.51758793969849" y="98.36065573770492" width="0.45226130653266167" height="1.639344262295083"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="54.020100502512555" y="98.29234972677595" width="0.4522613065326681" height="1.707650273224047"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="54.52261306532663" y="97.6775956284153" width="0.45226130653266167" height="2.322404371584696"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="55.0251256281407" y="99.38524590163935" width="0.45226130653266167" height="0.614754098360649"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="55.52763819095477" y="99.18032786885246" width="0.45226130653266167" height="0.8196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="56.03015075376884" y="97.81420765027322" width="0.4522613065326681" height="2.185792349726782"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="56.53266331658291" y="98.56557377049181" width="0.45226130653266167" height="1.4344262295081904"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="57.03517587939698" y="98.77049180327869" width="0.45226130653266167" height="1.2295081967213122"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="57.53768844221105" y="98.77049180327869" width="0.45226130653266167" height="1.2295081967213122"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="58.04020100502512" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="58.54271356783919" y="97.81420765027322" width="0.45226130653266167" height="2.185792349726782"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="59.04522613065326" y="99.1120218579235" width="0.45226130653266167" height="0.8879781420765056"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="59.54773869346733" y="96.17486338797814" width="0.45226130653266167" height="3.825136612021865"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="60.0502512562814" y="97.47267759562841" width="0.4522613065326681" height="2.5273224043715885"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="60.552763819095475" y="95.62841530054645" width="0.45226130653266167" height="4.37158469945355"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="61.05527638190954" y="96.72131147540983" width="0.45226130653266167" height="3.278688524590166"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="61.55778894472361" y="93.71584699453553" width="0.45226130653266167" height="6.284153005464475"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="62.06030150753768" y="97.54098360655738" width="0.4522613065326681" height="2.4590163934426243"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="62.562814070351756" y="98.49726775956285" width="0.45226130653266167" height="1.5027322404371546"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="63.065326633165824" y="89.20765027322405" width="0.45226130653266167" height="10.792349726775953"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="63.56783919597989" y="90.7103825136612" width="0.45226130653266167" height="9.289617486338798"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="64.07035175879396" y="93.0327868852459" width="0.4522613065326681" height="6.967213114754102"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="64.57286432160804" y="91.32513661202185" width="0.4522613065326553" height="8.67486338797815"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="65.0753768844221" y="93.44262295081967" width="0.4522613065326681" height="6.557377049180332"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="65.57788944723617" y="98.22404371584699" width="0.4522613065326681" height="1.7759562841530112"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="66.08040201005025" y="97.47267759562841" width="0.4522613065326553" height="2.5273224043715885"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="66.58291457286431" y="92.82786885245902" width="0.4522613065326681" height="7.172131147540981"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="67.08542713567839" y="92.69125683060109" width="0.4522613065326681" height="7.308743169398909"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="67.58793969849246" y="93.44262295081967" width="0.4522613065326553" height="6.557377049180332"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="68.09045226130652" y="93.3743169398907" width="0.4522613065326681" height="6.625683060109296"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="68.5929648241206" y="92.41803278688525" width="0.4522613065326553" height="7.581967213114751"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="69.09547738693466" y="95.21857923497268" width="0.4522613065326681" height="4.78142076502732"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="69.59798994974874" y="96.85792349726776" width="0.4522613065326681" height="3.1420765027322375"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="70.10050251256281" y="91.80327868852459" width="0.4522613065326553" height="8.196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="70.60301507537687" y="91.2568306010929" width="0.4522613065326681" height="8.7431693989071"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="71.10552763819095" y="91.80327868852459" width="0.4522613065326681" height="8.196721311475414"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="71.60804020100502" y="92.75956284153006" width="0.4522613065326553" height="7.240437158469945"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="72.11055276381909" y="92.14480874316939" width="0.4522613065326681" height="7.855191256830608"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="72.61306532663316" y="94.53551912568307" width="0.4522613065326553" height="5.4644808743169335"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="73.11557788944722" y="97.19945355191257" width="0.4522613065326681" height="2.800546448087431"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="73.6180904522613" y="91.32513661202185" width="0.4522613065326681" height="8.67486338797815"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="74.12060301507537" y="90.57377049180327" width="0.4522613065326553" height="9.426229508196727"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="74.62311557788944" y="92.00819672131148" width="0.4522613065326681" height="7.991803278688522"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="75.12562814070351" y="90.23224043715847" width="0.4522613065326681" height="9.767759562841533"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="75.62814070351759" y="89.89071038251366" width="0.4522613065326553" height="10.10928961748634"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="76.13065326633165" y="93.51092896174863" width="0.4522613065326681" height="6.489071038251367"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="76.63316582914572" y="96.10655737704919" width="0.4522613065326553" height="3.893442622950815"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="77.13567839195979" y="86.81693989071039" width="0.4522613065326681" height="13.183060109289613"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="77.63819095477386" y="87.1584699453552" width="0.4522613065326681" height="12.841530054644807"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="78.14070351758794" y="84.97267759562841" width="0.4522613065326553" height="15.027322404371589"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="78.643216080402" y="85.58743169398907" width="0.4522613065326681" height="14.412568306010925"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="79.14572864321607" y="88.86612021857923" width="0.4522613065326681" height="11.133879781420774"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="79.64824120603015" y="93.44262295081967" width="0.4522613065326553" height="6.557377049180332"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="80.15075376884421" y="94.53551912568307" width="0.4522613065326681" height="5.4644808743169335"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="80.65326633165829" y="86.6120218579235" width="0.4522613065326553" height="13.387978142076506"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="81.15577889447235" y="87.63661202185793" width="0.4522613065326681" height="12.363387978142072"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="81.65829145728642" y="89.61748633879782" width="0.4522613065326681" height="10.382513661202182"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="82.1608040201005" y="89.34426229508196" width="0.4522613065326553" height="10.655737704918039"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="82.66331658291456" y="87.5" width="0.4522613065326681" height="12.5"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="83.16582914572864" y="91.12021857923497" width="0.4522613065326681" height="8.879781420765028"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="83.66834170854271" y="93.23770491803279" width="0.4522613065326553" height="6.76229508196721"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="84.17085427135677" y="80.80601092896174" width="0.4522613065326681" height="19.19398907103826"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="84.67336683417085" y="82.58196721311475" width="0.4522613065326553" height="17.41803278688525"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="85.17587939698491" y="83.19672131147541" width="0.4522613065326681" height="16.803278688524586"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="85.67839195979899" y="81.48907103825137" width="0.4522613065326681" height="18.510928961748633"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="86.18090452261306" y="84.01639344262296" width="0.4522613065326553" height="15.983606557377044"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="86.68341708542712" y="89.8224043715847" width="0.4522613065326681" height="10.177595628415304"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="87.1859296482412" y="90.50546448087431" width="0.4522613065326681" height="9.49453551912569"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="87.68844221105527" y="80.46448087431693" width="0.4522613065326553" height="19.535519125683066"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="88.19095477386934" y="79.78142076502732" width="0.4522613065326681" height="20.21857923497268"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="88.69346733668341" y="80.66939890710383" width="0.4522613065326553" height="19.330601092896174"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="89.19597989949747" y="76.09289617486338" width="0.4522613065326681" height="23.907103825136616"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="89.69849246231155" y="78.55191256830601" width="0.4522613065326681" height="21.448087431693992"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="90.20100502512562" y="86.88524590163934" width="0.4522613065326553" height="13.114754098360663"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="90.70351758793969" y="90.7103825136612" width="0.4522613065326681" height="9.289617486338798"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="91.20603015075376" y="79.09836065573771" width="0.4522613065326681" height="20.901639344262293"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="91.70854271356784" y="76.91256830601093" width="0.4522613065326553" height="23.087431693989075"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="92.2110552763819" y="75.3415300546448" width="0.4522613065326681" height="24.658469945355193"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="92.71356783919597" y="75.95628415300547" width="0.4522613065326553" height="24.04371584699453"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="93.21608040201004" y="74.4535519125683" width="0.4522613065326681" height="25.5464480874317"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="93.71859296482411" y="85.38251366120218" width="0.4522613065326681" height="14.617486338797818"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="94.22110552763819" y="90.1639344262295" width="0.4522613065326553" height="9.836065573770497"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="94.72361809045225" y="76.36612021857923" width="0.4522613065326681" height="23.633879781420774"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="95.22613065326632" y="75.13661202185793" width="0.4522613065326681" height="24.86338797814207"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="95.7286432160804" y="71.72131147540983" width="0.4522613065326553" height="28.278688524590166"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="96.23115577889446" y="70.21857923497268" width="0.4522613065326681" height="29.78142076502732"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="96.73366834170854" y="71.03825136612022" width="0.4522613065326553" height="28.96174863387978"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="97.2361809045226" y="79.9863387978142" width="0.4522613065326681" height="20.0136612021858"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="97.73869346733667" y="88.45628415300547" width="0.4522613065326681" height="11.54371584699453"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="98.24120603015075" y="68.23770491803279" width="0.4522613065326553" height="31.76229508196721"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="98.74371859296481" y="73.77049180327869" width="0.4522613065326681" height="26.229508196721312"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="99.24623115577889" y="69.46721311475409" width="0.4522613065326681" height="30.532786885245912"></rect>
+          <rect class="cases-day svelte-yqrvvk" x="99.74874371859296" y="66.87158469945355" width="0.4522613065326553" height="33.12841530054645"></rect>
           
 
-        <path class="cases-week-average svelte-oe82cq" d="M0,99.93169398907104L0.5025125628140703,99.93169398907104L1.0050251256281406,99.72677595628416L1.507537688442211,99.6243169398907L2.0100502512562812,99.56284153005464L2.5125628140703515,99.48770491803279L3.015075376884422,99.4535519125683L3.517587939698492,99.1608118657299L4.0201005025125625,98.84855581576893L4.522613065326633,98.35089773614364L5.025125628140703,97.84348165495706L5.527638190954773,97.22872755659641L6.030150753768844,96.87743950039032L6.532663316582914,96.31147540983606L7.035175879396984,94.74043715846994L7.537688442211055,92.99375487900078L8.040201005025125,90.32982045277127L8.542713567839195,87.4512099921936L9.045226130653266,83.93832943013271L9.547738693467336,80.31811085089774L10.050251256281406,77.79078844652615L10.552763819095476,69.28181108508977L11.055276381909547,60.73380171740827L11.557788944723617,52.14676034348165L12.060301507537687,47.47267759562841L12.562814070351758,40.50546448087431L13.065326633165828,37.8415300546448L13.567839195979898,35.70452771272443L14.070351758793969,31.801327088212332L14.572864321608039,30.279078844652616L15.07537688442211,31.664715066354404L15.57788944723618,28.912958626073376L16.08040201005025,27.341920374707243L16.58291457286432,27.04918032786884L17.08542713567839,28.161592505854784L17.587939698492463,29.664324746291953L18.09045226130653,30.708430913348934L18.5929648241206,31.254879000780633L19.09547738693467,33.59679937548789L19.597989949748744,37.30483996877439L20.100502512562812,39.61748633879781L20.60301507537688,41.100702576112404L21.105527638190953,44.8575331772053L21.608040201005025,48.975409836065566L22.110552763819094,52.90788446526151L22.613065326633162,56.020686963309906L23.115577889447234,62.06088992974239L23.618090452261306,64.24668227946916L24.120603015075375,64.85167837626854L24.623115577889443,71.4871194379391L25.125628140703515,74.31693989071039L25.628140703517587,77.09797033567526L26.130653266331656,79.42037470725995L26.633165829145725,79.596018735363L27.135678391959797,80.74746291959407L27.63819095477387,82.04527712724433L28.140703517587937,81.73302107728337L28.643216080402006,83.80171740827478L29.145728643216078,85.48009367681499L29.64824120603015,86.58274785323965L30.15075376884422,87.7927400468384L30.653266331658287,88.34894613583138L31.15577889447236,88.59289617486338L31.65829145728643,89.60772833723654L32.1608040201005,90.19320843091334L32.66331658291457,90.54449648711943L33.16582914572864,91.58860265417643L33.66834170854271,92.40827478532397L34.17085427135678,92.79859484777518L34.67336683417085,93.16939890710383L35.175879396984925,93.97931303669009L35.678391959798994,94.7599531615925L36.18090452261306,95.15027322404372L36.68341708542713,95.68696330991413L37.1859296482412,95.92115534738485L37.688442211055275,95.9992193598751L38.19095477386934,96.06752537080406L38.69346733668341,96.4968774395004L39.19597989949749,96.79937548790008L39.698492462311556,97.21896955503513L40.201005025125625,97.30679156908666L40.70351758793969,97.48243559718969L41.20603015075376,97.71662763466043L41.70854271356784,97.75565964090555L42.211055276381906,97.8727556596409L42.713567839195974,97.93130366900859L43.21608040201005,98.00936768149883L43.71859296482412,98.26307572209211L44.22110552763819,98.47775175644028L44.723618090452256,98.48750975800156L45.226130653266324,98.50702576112413L45.7286432160804,98.69242779078844L46.23115577889447,98.8680718188915L46.73366834170854,98.90710382513662L47.23618090452261,98.72170179547228L47.73869346733668,98.70218579234972L48.24120603015075,98.74121779859485L48.74371859296482,98.77049180327869L49.24623115577889,98.88758782201405L49.74874371859296,98.84855581576893L50.25125628140703,98.8680718188915L50.7537688442211,98.99492583918813L51.256281407035175,99.05347384855581L51.75879396984924,99.05347384855581L52.26130653266331,99.04371584699453L52.76381909547738,98.82903981264637L53.26633165829145,98.93637782982046L53.768844221105525,98.92661982825918L54.27135678391959,98.84855581576893L54.77386934673366,98.6631537861046L55.27638190954774,98.67291178766588L55.778894472361806,98.63387978142076L56.281407035175874,98.56557377049181L56.78391959798994,98.467993754879L57.28643216080401,98.52654176424669L57.78894472361809,98.59484777517564L58.291457286432156,98.56557377049181L58.793969849246224,98.34113973458236L59.2964824120603,98.33138173302108L59.79899497487437,98.09718969555036L60.30150753768844,97.94106167056987L60.804020100502505,97.49219359875097L61.306532663316574,97.19945355191257L61.80904522613065,96.66276346604215L62.31155778894472,96.62373145979703L62.81407035175879,96.53590944574552L63.31658291457286,95.54059328649492L63.81909547738693,94.57455113192817L64.321608040201,94.20374707259953L64.82412060301507,93.43286494925839L65.32663316582914,93.39383294301327L65.82914572864321,93.49141295862607L66.33165829145727,93.34504293520686L66.83417085427135,93.86221701795472L67.33668341708542,94.14519906323184L67.83919597989949,94.20374707259953L68.34170854271356,94.49648711943794L68.84422110552764,94.35011709601874L69.3467336683417,93.9207650273224L69.84924623115577,93.83294301327088L70.35175879396985,93.68657298985168L70.85427135678391,93.48165495706479L71.35678391959799,93.24746291959407L71.85929648241205,93.15964090554255L72.36180904522612,93.12060889929742L72.8643216080402,93.02302888368462L73.36683417085426,93.07181889149102L73.86934673366834,93.00351288056206L74.3718592964824,92.90593286494925L74.87437185929647,92.93520686963309L75.37688442211055,92.57416081186572L75.87939698492461,92.25214676034348L76.38190954773869,92.10577673692428L76.88442211055276,91.9496487119438L77.38693467336682,91.30562060889929L77.8894472361809,90.81772053083529L78.39195979899498,89.81264637002342L78.89447236180904,89.14910226385636L79.39698492462311,89.00273224043715L79.89949748743717,88.99297423887587L80.40201005025125,88.76854020296643L80.90452261306532,88.73926619828259L81.40703517587939,88.80757220921156L81.90954773869346,89.47111631537861L82.41206030150752,90.00780640124903L82.9145728643216,89.81264637002342L83.41708542713567,89.48087431693989L83.91959798994974,89.29547228727556L84.42211055276381,88.46604215456674L84.92462311557789,87.743950039032L85.42713567839195,86.82669789227167L85.92964824120602,85.70452771272443L86.4321608040201,85.20686963309913L86.93467336683416,85.02146760343481L87.43718592964824,84.6311475409836L87.9396984924623,84.5823575331772L88.44221105527637,84.18227946916471L88.94472361809045,83.82123341139734L89.44723618090451,83.0503512880562L89.94974874371859,82.26971116315379L90.45226130653265,81.85011709601874L90.95477386934672,81.87939110070258L91.4572864321608,81.68423106947697L91.95979899497486,81.2743950039032L92.46231155778894,80.51327088212334L92.96482412060301,80.49375487900078L93.46733668341707,79.90827478532395L93.96984924623115,79.6935987509758L94.47236180904522,79.61553473848555L94.97487437185929,79.22521467603434L95.47738693467336,78.97150663544106L95.97989949748742,78.4543325526932L96.4824120603015,77.63466042154566L96.98492462311557,77.14676034348165L97.48743718592964,76.37587822014052L97.98994974874371,76.1319281811085L98.49246231155777,74.97072599531616L98.99497487437185,74.77556596409056L99.49748743718592,74.4535519125683L99.99999999999999,73.97540983606557"></path></svg>
+        <path class="cases-week-average svelte-yqrvvk" d="M0,99.93169398907104L0.5025125628140703,99.93169398907104L1.0050251256281406,99.72677595628416L1.507537688442211,99.6243169398907L2.0100502512562812,99.56284153005464L2.5125628140703515,99.48770491803279L3.015075376884422,99.4535519125683L3.517587939698492,99.1608118657299L4.0201005025125625,98.84855581576893L4.522613065326633,98.35089773614364L5.025125628140703,97.84348165495706L5.527638190954773,97.22872755659641L6.030150753768844,96.87743950039032L6.532663316582914,96.31147540983606L7.035175879396984,94.74043715846994L7.537688442211055,92.99375487900078L8.040201005025125,90.32982045277127L8.542713567839195,87.4512099921936L9.045226130653266,83.93832943013271L9.547738693467336,80.31811085089774L10.050251256281406,77.79078844652615L10.552763819095476,69.28181108508977L11.055276381909547,60.73380171740827L11.557788944723617,52.14676034348165L12.060301507537687,47.47267759562841L12.562814070351758,40.50546448087431L13.065326633165828,37.8415300546448L13.567839195979898,35.70452771272443L14.070351758793969,31.801327088212332L14.572864321608039,30.279078844652616L15.07537688442211,31.664715066354404L15.57788944723618,28.912958626073376L16.08040201005025,27.341920374707243L16.58291457286432,27.04918032786884L17.08542713567839,28.161592505854784L17.587939698492463,29.664324746291953L18.09045226130653,30.708430913348934L18.5929648241206,31.254879000780633L19.09547738693467,33.59679937548789L19.597989949748744,37.30483996877439L20.100502512562812,39.61748633879781L20.60301507537688,41.100702576112404L21.105527638190953,44.8575331772053L21.608040201005025,48.975409836065566L22.110552763819094,52.90788446526151L22.613065326633162,56.020686963309906L23.115577889447234,62.06088992974239L23.618090452261306,64.24668227946916L24.120603015075375,64.85167837626854L24.623115577889443,71.4871194379391L25.125628140703515,74.31693989071039L25.628140703517587,77.09797033567526L26.130653266331656,79.42037470725995L26.633165829145725,79.596018735363L27.135678391959797,80.74746291959407L27.63819095477387,82.04527712724433L28.140703517587937,81.73302107728337L28.643216080402006,83.80171740827478L29.145728643216078,85.48009367681499L29.64824120603015,86.58274785323965L30.15075376884422,87.7927400468384L30.653266331658287,88.34894613583138L31.15577889447236,88.59289617486338L31.65829145728643,89.60772833723654L32.1608040201005,90.19320843091334L32.66331658291457,90.54449648711943L33.16582914572864,91.58860265417643L33.66834170854271,92.40827478532397L34.17085427135678,92.79859484777518L34.67336683417085,93.16939890710383L35.175879396984925,93.97931303669009L35.678391959798994,94.7599531615925L36.18090452261306,95.15027322404372L36.68341708542713,95.68696330991413L37.1859296482412,95.92115534738485L37.688442211055275,95.9992193598751L38.19095477386934,96.06752537080406L38.69346733668341,96.4968774395004L39.19597989949749,96.79937548790008L39.698492462311556,97.21896955503513L40.201005025125625,97.30679156908666L40.70351758793969,97.48243559718969L41.20603015075376,97.71662763466043L41.70854271356784,97.75565964090555L42.211055276381906,97.8727556596409L42.713567839195974,97.93130366900859L43.21608040201005,98.00936768149883L43.71859296482412,98.26307572209211L44.22110552763819,98.47775175644028L44.723618090452256,98.48750975800156L45.226130653266324,98.50702576112413L45.7286432160804,98.69242779078844L46.23115577889447,98.8680718188915L46.73366834170854,98.90710382513662L47.23618090452261,98.72170179547228L47.73869346733668,98.70218579234972L48.24120603015075,98.74121779859485L48.74371859296482,98.77049180327869L49.24623115577889,98.88758782201405L49.74874371859296,98.84855581576893L50.25125628140703,98.8680718188915L50.7537688442211,98.99492583918813L51.256281407035175,99.05347384855581L51.75879396984924,99.05347384855581L52.26130653266331,99.04371584699453L52.76381909547738,98.82903981264637L53.26633165829145,98.93637782982046L53.768844221105525,98.92661982825918L54.27135678391959,98.84855581576893L54.77386934673366,98.6631537861046L55.27638190954774,98.67291178766588L55.778894472361806,98.63387978142076L56.281407035175874,98.56557377049181L56.78391959798994,98.467993754879L57.28643216080401,98.52654176424669L57.78894472361809,98.59484777517564L58.291457286432156,98.56557377049181L58.793969849246224,98.34113973458236L59.2964824120603,98.33138173302108L59.79899497487437,98.09718969555036L60.30150753768844,97.94106167056987L60.804020100502505,97.49219359875097L61.306532663316574,97.19945355191257L61.80904522613065,96.66276346604215L62.31155778894472,96.62373145979703L62.81407035175879,96.53590944574552L63.31658291457286,95.54059328649492L63.81909547738693,94.57455113192817L64.321608040201,94.20374707259953L64.82412060301507,93.43286494925839L65.32663316582914,93.39383294301327L65.82914572864321,93.49141295862607L66.33165829145727,93.34504293520686L66.83417085427135,93.86221701795472L67.33668341708542,94.14519906323184L67.83919597989949,94.20374707259953L68.34170854271356,94.49648711943794L68.84422110552764,94.35011709601874L69.3467336683417,93.9207650273224L69.84924623115577,93.83294301327088L70.35175879396985,93.68657298985168L70.85427135678391,93.48165495706479L71.35678391959799,93.24746291959407L71.85929648241205,93.15964090554255L72.36180904522612,93.12060889929742L72.8643216080402,93.02302888368462L73.36683417085426,93.07181889149102L73.86934673366834,93.00351288056206L74.3718592964824,92.90593286494925L74.87437185929647,92.93520686963309L75.37688442211055,92.57416081186572L75.87939698492461,92.25214676034348L76.38190954773869,92.10577673692428L76.88442211055276,91.9496487119438L77.38693467336682,91.30562060889929L77.8894472361809,90.81772053083529L78.39195979899498,89.81264637002342L78.89447236180904,89.14910226385636L79.39698492462311,89.00273224043715L79.89949748743717,88.99297423887587L80.40201005025125,88.76854020296643L80.90452261306532,88.73926619828259L81.40703517587939,88.80757220921156L81.90954773869346,89.47111631537861L82.41206030150752,90.00780640124903L82.9145728643216,89.81264637002342L83.41708542713567,89.48087431693989L83.91959798994974,89.29547228727556L84.42211055276381,88.46604215456674L84.92462311557789,87.743950039032L85.42713567839195,86.82669789227167L85.92964824120602,85.70452771272443L86.4321608040201,85.20686963309913L86.93467336683416,85.02146760343481L87.43718592964824,84.6311475409836L87.9396984924623,84.5823575331772L88.44221105527637,84.18227946916471L88.94472361809045,83.82123341139734L89.44723618090451,83.0503512880562L89.94974874371859,82.26971116315379L90.45226130653265,81.85011709601874L90.95477386934672,81.87939110070258L91.4572864321608,81.68423106947697L91.95979899497486,81.2743950039032L92.46231155778894,80.51327088212334L92.96482412060301,80.49375487900078L93.46733668341707,79.90827478532395L93.96984924623115,79.6935987509758L94.47236180904522,79.61553473848555L94.97487437185929,79.22521467603434L95.47738693467336,78.97150663544106L95.97989949748742,78.4543325526932L96.4824120603015,77.63466042154566L96.98492462311557,77.14676034348165L97.48743718592964,76.37587822014052L97.98994974874371,76.1319281811085L98.49246231155777,74.97072599531616L98.99497487437185,74.77556596409056L99.49748743718592,74.4535519125683L99.99999999999999,73.97540983606557"></path></svg>
 
-      <div class="pancake-point svelte-11ba04d" style="left: 16.58291457286432%; top: 27.04918032786884%"><div class="annotation svelte-oe82cq"><div class="annotation__line svelte-oe82cq"></div>
-          <div class="annotation__content svelte-oe82cq">Moyenne sur 7 jours</div></div>
+      <div class="pancake-point svelte-11ba04d" style="left: 16.58291457286432%; top: 27.04918032786884%"><div class="annotation svelte-yqrvvk"><div class="annotation__line svelte-yqrvvk"></div>
+          <div class="annotation__content svelte-yqrvvk">Moyenne sur 7 jours</div></div>
 </div>
-</div></div></div>
+</div></div>
     </body>
   </foreignObject>
 </svg>

@@ -40,4 +40,4 @@ element and makes it possible to show a responsive version of the chart right he
 
 This is probably not a good idea, but here goes:
 
-<img src="build/readme/chart.svg" width="1000" height="500">
+<img src="build/readme/chart.svg" width="1000" height="400">
